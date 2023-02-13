@@ -1,0 +1,658 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+
+body {
+    font-size: 17px;
+    line-height: 26px;
+    color: #333;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 26px;
+    font-size: 17px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #102935;
+    font-weight: 600 !important;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/**/
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+.div-row {
+    overflow: hidden;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+.pb-5 {
+    padding-bottom: 3rem !important;
+}
+
+.pt-4 {
+    padding-top: 1.5rem !important;
+}
+
+.pb-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.mt-0 {
+    margin-top: 0px !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 0.25rem;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+    .card-header a {
+        color: white;
+    }
+
+.card ul {
+    list-style: none;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-top: 40px;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+.container {
+    max-width: 1160px;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-inline a {
+    text-decoration: none;
+}
+
+.container-fluid {
+    width: 100%;
+    overflow: hidden;
+}
+
+.div-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.div-8 {
+    width: 66.66%;
+    float: left;
+}
+
+.div-6 {
+    width: 50%;
+    float: left;
+}
+
+.div-7 {
+    width: 58.33%;
+    float: left;
+}
+
+.div-5 {
+    width: 41.66%;
+    float: left;
+}
+
+.img-fluid {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+.p-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/**/
+
+.profile-img {
+    margin-top: 30px;
+}
+
+
+
+.first-div .div-4 {
+    order: 2;
+}
+
+.first-div .div-8 {
+    order: 1;
+}
+
+.red {
+    color: #d1c770;
+}
+
+.brown {
+    color: #102935;
+}
+
+.bg-brown {
+    background: #102935;
+}
+
+.bg-red {
+    background: #d1c770;
+}
+
+.bg1 {
+    /*background: #f8f9fa;*/
+}
+
+.bg2 {
+    background: #0a4574;
+}
+
+.navbar {
+    padding: 30px 40px !important;
+    background: #102935 !important;
+}
+
+
+.navbar-nav {
+    padding-left: 0px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    padding: 10px 15px !important;
+    color: #eeeeee !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.navbar-nav a {
+    background: #0a4574 !important;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+}
+
+.navbar i {
+    color: #eeeeee !important;
+    display: none;
+    background: #d1c770 !important;
+}
+
+.navbar a:hover {
+    color: #fff !important;
+}
+
+.navbar-nav a:hover {
+    background: #d1c770 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.98)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar a:hover i {
+    color: #fff !important;
+}
+
+.navbar-brand span {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+    .navbar-brand span:nth-child(1) {
+        color: #b9bfc1;
+    }
+
+    .navbar-brand span:nth-child(2) {
+        color: #92bbdb;
+    }
+
+.social i {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 6px;
+    line-height: 28px;
+    /* border-radius: 100%; */
+    margin-top: 0px;
+    border-radius: 100%;
+    line-height: 40px;
+}
+
+    .social i:hover {
+        background: #0a4574;
+        color: white;
+    }
+
+.social a:hover {
+    text-decoration: none;
+}
+
+.left-div {
+    padding: 80px 40px 80px 40px;
+    overflow: hidden;
+}
+
+    .left-div h4 {
+        color: #0a4574;
+        font-weight: 400 !important;
+        letter-spacing: 1px;
+        font-size: 18px;
+        text-transform: uppercase;
+        padding-top: 12px;
+    }
+
+    .left-div p {
+        /*color: #fff;*/
+    }
+
+.profile-img {
+    border-radius: 100%;
+}
+
+.left-div a {
+    color: #111;
+}
+
+    .left-div a:hover {
+        color: #111;
+        text-decoration: none;
+    }
+
+.right-div {
+    padding: 80px 40px;
+    overflow: hidden;
+}
+
+    .right-div p {
+        color: #fff;
+    }
+
+    .right-div h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 57px;
+    }
+
+    .right-div h3 {
+        color: white;
+        font-weight: 400 !important;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+.title-2 {
+    font-size: 57px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line1 {
+    background: #102935;
+    width: 70px;
+    height: 4px;
+    display: none;
+}
+
+.education {
+    background: #102935;
+    text-align: center;
+}
+
+    .education span {
+        color: #d5d3d3;
+        font-size: 15px;
+    }
+
+    .education em {
+        padding: 3px 15px;
+        font-style: inherit;
+        border-radius: 30px;
+        font-size: 16px;
+        background: #d1c770 !important;
+        color: #111 !important;
+        font-weight: 600;
+        margin-top: 8px;
+    }
+
+    .education h2 {
+        font-weight: 500 !important;
+        margin-top: 30px;
+    }
+
+    .education .brown {
+        color: #fff !important;
+    }
+
+    .education p {
+        color: #fff !important;
+    }
+
+    .education h5 {
+        color: #b1cde4;
+        font-weight: 300 !important;
+        font-size: 24px;
+    }
+
+    .education .div-4 {
+        width: 100% !important;
+    }
+
+    .education .div-8 {
+        width: 100% !important;
+    }
+
+    .education .text-md-right {
+        text-align: center !important;
+    }
+
+.research .title-2.text-white {
+    color: #102935 !important;
+}
+
+.research-main a {
+    text-decoration: underline;
+    color: #0a4574;
+}
+
+    .research-main a:hover {
+        color: #92bbdb;
+    }
+
+.re-box {
+    /*box-shadow:0px 0px 16px 1px #07070740;*/
+    padding: 20px;
+
+}
+
+    .re-box h4 {
+        font-weight: 500 !important;
+        color: #555;
+    }
+
+    .re-box span {
+        padding: 3px 15px;
+        font-style: inherit;
+        border-radius: 30px;
+        font-size: 15px;
+        color: #111;
+        font-weight: 500;
+    }
+
+.skills {
+    background: #0a4574;
+}
+
+.skill-div {
+    background: #fff;
+    padding: 30px;
+    margin: 30px;
+}
+
+    .skill-div p {
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .skill-div img {
+        position: relative;
+        top: 8px;
+    }
+
+    .skill-div .red {
+        color: #111 !important;
+    }
+
+.badge-green {
+    background: #0a4574;
+    color: white !important;
+}
+
+.bg-green {
+    background: #0a4574;
+}
+
+.green {
+    color: #0a4574;
+}
+
+.work {
+    background: #102935;
+}
+
+    .work h2 a {
+        color: white;
+    }
+
+    .work .div-6 {
+        width: 100% !important;
+    }
+
+.skills .brown {
+    color: #fff !important;
+}
+
+.list-group-item {
+    /*background:#75aaaa*/
+}
+
+.card-header {
+    background: #102935 !important;
+    color: white;
+}
+
+.work span {
+    padding: 3px 15px;
+    font-style: inherit;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+footer {
+    background: #111;
+}
+
+.links a {
+    color: #d1c770;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+    .links a:hover {
+        color: #fff;
+    }
+
+.download a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+    .download a:hover {
+        color: #fff;
+    }
+
+/**/
+
+@media (min-width: 992px) {
+
+    .first-div {
+        display: flex !important;
+    }
+
+    .skills .title-2 {
+        padding-bottom: 30px;
+    }
+
+    .research-main .re-box {
+        flex: 50% !important;
+        max-width: 50% !important;
+        float: left;
+    }
+
+    .research.pb-5 {
+        padding-bottom: 0px !important;
+    }
+
+    .research-main .re-box:nth-child(3) {
+        flex: 100% !important;
+        max-width: 100% !important;
+        float: left;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .navbar {
+        padding: 7px 10px !important;
+    }
+
+        .navbar a {
+            padding: 7px 11px !important;
+            font-size: 14px;
+            margin: 4px;
+        }
+
+    .re-box {
+        padding-top: 0px;
+    }
+
+    .profile-img {
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+
+    .left-div {
+        padding: 40px 15px;
+    }
+
+    .right-div {
+        padding: 40px 15px;
+    }
+
+        .right-div h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+
+    .title-2 {
+        font-size: 45px;
+    }
+
+    /**/
+
+    .div-4 {
+        width: 100%;
+    }
+
+    .div-8 {
+        width: 100%;
+    }
+
+    .div-6 {
+        width: 100%;
+    }
+
+    .div-7 {
+        width: 100%;
+    }
+
+    .div-5 {
+        width: 100%;
+    }
+}
